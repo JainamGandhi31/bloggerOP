@@ -66,7 +66,8 @@
 }
 .article{
     flex-direction: column;
-    padding: 15px 0px;
+    padding: 10px 0px;
+    margin-bottom: 40px;
 }
 
 .article-content {
@@ -75,7 +76,7 @@
 }
 
 .article-content a h3 {
-    margin: 5px 0px;
+    margin: 6px 0px;
 }
 
 
