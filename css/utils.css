@@ -1,0 +1,39 @@
+/* utility classes are shown here */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+:root {
+    --fontlogo: 'Mate SC', serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 70vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.margin-y {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.font-main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+.anchor {
+    text-decoration: none;
+    color: black;
+}

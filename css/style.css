@@ -1,0 +1,212 @@
+    /* RESET */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* NAVIGATION CSS */
+    
+    .navigation {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        /* background-color: pink; */
+    }
+    
+    .nav-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-text {
+        font-family: var(--fontlogo);
+        font-size: 30px;
+        /* font-weight: bold; */
+    }
+    
+    .nav-ul {
+        display: flex;
+        margin: 0px 50px;
+    }
+    
+    .list-item {
+        list-style: none;
+        margin: 0px 20px;
+    }
+    
+    .list-item a {
+        text-decoration: none;
+        color: grey;
+        font-size: 20px;
+    }
+    
+    .list-item a:hover {
+        color: black;
+    }
+    /* NAVIGATION : search button */
+    
+    .form-input {
+        padding: 3px 6px;
+        margin: 0px 6px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        outline: none;
+        font-size: 17px;
+    }
+    
+    .btn-search {
+        padding: 3px 6px;
+        border: 2px solid gray;
+        outline: none;
+        border-radius: 4px;
+        background: none;
+        cursor: pointer;
+        background-color: #f5f3f3;
+        transition: all 0.3s ease-in-out;
+        font-size: 17px;
+    }
+    
+    .btn-search:hover {
+        background-color: gray;
+        color: white;
+    }
+    /* CONTENT CSS */
+    
+    .content {
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        padding: 20px 10px;
+        /* box-shadow: 3px 3px 4px gray; */
+    }
+    
+    .content::before {
+        content: "";
+        background: url(../images/article4.jpg);
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        opacity: 0.15;
+        z-index: -1;
+    }
+    
+    .content-left {
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+        padding: 0px 20px;
+    }
+    
+    .content-title {
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+    
+    .content-text {
+        font-size: 20px;
+    }
+    
+    .content-right {
+        /* width: 50%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    
+    .content-right img {
+        height: 300px;
+        border-radius: 50%;
+        border: 2px solid gray;
+    }
+    /* ARTICLES SECTION */
+    /* .home-articles {
+        /* height: 500px; */
+    /* background-color: antiquewhite; */
+    /* padding-top: 10px; 
+    }*/
+    
+    .home-articles {
+        background-color: #f9f8f6;
+        padding: 0px 20px;
+        /* box-shadow: 3px 3px 4px gray; */
+        position: relative;
+    }
+    
+    .year-box {
+        position: absolute;
+        right: 200px;
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .year-box h3 {
+        font-size: 20px;
+        font-family: var(--font-heading);
+    }
+    
+    .years {
+        display: flex;
+    }
+    
+    .year-radio {
+        margin: 5px 10px;
+    }
+    
+    .home-articles h2 {
+        padding: 10px 20px;
+    }
+    
+    .article {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        /* border: 1px solid black; */
+    }
+    
+    .article-content {
+        margin: 0px 35px;
+    }
+    
+    .article-content a {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 30px;
+    }
+    
+    .article-content a h3 {
+        margin: 15px 0px;
+    }
+    
+    .article-img img {
+        height: 155px;
+        width: 180px;
+    }
+    /* FOOTER CSS */
+    
+    .footer {
+        /* height: 50px; */
+        background-color: #2a2929;
+        display: flex;
+        /* flex-direction: column; */
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        /* position: sticky; */
+        /* bottom: 0px; */
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .footer a {
+        color: white;
+    }

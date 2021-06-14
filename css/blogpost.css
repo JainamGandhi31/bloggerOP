@@ -1,0 +1,52 @@
+.blog-img{
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.blog-img img {
+
+width: 100%;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.more-articles{
+    display: flex;
+}
+
+.more-articles .article{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-meta{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.author-info{
+    margin: 15px 0px;
+}
+.author-info .author-name{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 4px 0px;
+}
+
+.social-media{
+    padding: 0px 20px;
+}
+
+.social-media a i{
+margin: 0px 5px;
+}
+
