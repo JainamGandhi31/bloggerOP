@@ -190,6 +190,7 @@
     .article-img img {
         height: 155px;
         width: 180px;
+        box-shadow: 2px 2px 4px gray;
     }
     /* FOOTER CSS */
     
