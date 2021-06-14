@@ -120,7 +120,7 @@ flex-direction: column;
 
 @media screen and (max-width:380px) {
     .list-item{
-        margin: 0px 4px;
+        margin: 0px 1px;
     }   
 
     .list-item a{
