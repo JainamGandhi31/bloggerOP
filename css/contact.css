@@ -1,14 +1,16 @@
 .contact-form {
-    height:90vh;
+    /* height:90vh; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 25px auto;
     width: 80vw;
+    background: url(../images/article4.jpg);
+    padding: 10px;
 }
 
-.contact-form::before {
+/* .contact-form::before {
     content: "";
     background: url(../images/article4.jpg);
     width: inherit;
@@ -16,7 +18,7 @@
     position: absolute;
     opacity: 0.3;
     z-index: -1;
-}
+} */
 
 .contact-form-head{
     text-align: center;
